@@ -386,7 +386,7 @@ We have covered many many arguments that we can pass. A tempting alternative is 
 alias my_server="ssh -i ~/.id_ed25519 --port 2222 -L 9999:localhost:8888 foobar@remote_server
 ```
 
-However, there is a better alternative using `~/.ssh/config`.
+however, there is a better alternative using `~/.ssh/config`.
 
 ```bash
 Host vm
